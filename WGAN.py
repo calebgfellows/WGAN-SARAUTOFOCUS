@@ -270,7 +270,8 @@ def run():
         batch_size=batch_size,
         patch_size=patch_size,
         shuffle=False,
-        path=path
+        path=path,
+        size=inputsize
     )
 
     batch_size = 32
@@ -281,7 +282,8 @@ def run():
         batch_size=batch_size,
         patch_size=patch_size,
         shuffle=False,
-        path=path
+        path=path,
+        size=inputsize
     )
 
 
