@@ -291,7 +291,7 @@ def run():
 
 
     generator_optimizer = tf.keras.optimizers.Adam(lr=3e-4, beta_1=0.9, beta_2=0.999, epsilon=1e-08)
-    discriminator_optimizer = tf.keras.optimizers.Adam(lr=3e-5, beta_1=0.9, beta_2=0.999, epsilon=1e-08)
+    discriminator_optimizer = tf.keras.optimizers.Adam(lr=3e-4, beta_1=0.9, beta_2=0.999, epsilon=1e-08)
 
 
 
